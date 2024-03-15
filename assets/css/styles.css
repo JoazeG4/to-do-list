@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
+
+
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    margin: 0px 8px;
+    height: 100vh;
+    background-image: linear-gradient(to top,  #afe0ff,  #69c5ff);
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    margin: 5px auto;
+    padding: 0 17px;
+    font-family: 'Open sans', sans-serif;
+    font-size: 2em;
+    color: #ffffff;
+    letter-spacing: 1px;
+    border-bottom: solid gray 1px;
+}
+
+#list {
+    background-color: #ffffff;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.200);
+    border-radius: 2px;
+    margin: 0 auto;
+    padding: 10px;
+    height: 407px;
+    width: 500px;
+}
+
+#task-form {
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#task-input {
+    width: 100%;
+    padding: 6px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+}
+
+#task-input:hover {
+    box-shadow: 3px 3px 6px 2px rgba(0, 0, 0, 0.250);
+    transition: 0.3s ease-in-out;
+}
+
+#tasks {
+    height: 348px;
+    display: flex;
+    flex-direction: column; 
+}
+
+button {
+    border: none;
+    padding: 5.7px;
+    border-radius: 2px;
+    color: #ffffff;
+    text-align: center;
+    outline: none;
+}
+
+#add {
+    padding: 5.7px;
+    background-color: #6fd06f;
+}
+
+#add:hover {
+    box-shadow: 3px 3px 6px 2px rgba(0, 0, 0, 0.200);
+    background-color: #ffffff;
+    color: gray;
+    transition: 0.3s ease-in-out;
+}
+
+.task-item {
+    font-size: 0.8em;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;  
+}
+
+.task-item:hover {
+    box-shadow: 3px 3px 6px 2px rgba(0, 0, 0, 0.250);
+    background-color: #ffffff;
+    transition: 0.3s ease-in-out;
+}
+
+.task-item label {
+    width: 100%;
+    margin: 6px;
+    font-size: 1em;
+    color: grey;  
+}
+
+input[type = checkbox]{
+    margin-left: 6.5px;
+}
+
+:checked + label {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.button-remove {
+    width: 83px;
+    height: 100%;
+    margin: 0;
+    background-color: transparent;
+    color: #f85858;
+}
+
+#clean {
+    margin: 0;
+    width: 100%;
+    background-color: #f35353;
+}
+
+#clean:hover {
+    box-shadow: 3px 3px 6px 2px rgba(0, 0, 0, 0.250);
+    background-color: #ffffff;
+    color: gray;
+    transition: 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 560px) {
+    #list {
+        width: 90%;
+    }
+}
