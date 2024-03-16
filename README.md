@@ -20,6 +20,3 @@ Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir uma issue
 ## Contato
 - GitHub: [Joaze Francisco](https://github.com/JoazeG4)
 - Email: joazefrancisco@gmail.com
-
- # to-do-list
-Desenvolvimento do projeto to-do list proposto pela DIO
